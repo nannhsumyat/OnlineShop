@@ -41,6 +41,6 @@
                     </div>
                 @endforeach
                 </div>
-            </div>
+            {{$items->links()}}
         </section>
 @endsection
